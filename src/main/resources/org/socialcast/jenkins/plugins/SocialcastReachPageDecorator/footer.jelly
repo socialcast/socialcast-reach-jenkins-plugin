@@ -1,0 +1,25 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+	<j:if test="${it.token!=null}">
+		<j:if test="${it.domain!=null}">
+			<div id='socialcast_reach_container' style='300px'></div>
+			<script type="text/javascript">
+			  var _domain = "${it.domain}";
+			  var _reach = _reach || []; 
+			  _reach.push({
+			    container: 'socialcast_reach_container',
+			    domain: 'https://' + _domain + '/',
+			    token: "${it.token}"
+			  }); 
+			  (function(){ 
+			    var e=document.createElement('script'); 
+			    e.type='text/javascript'; 
+			    e.async = true; 
+			    e.src= document.location.protocol + '//' + _domain + '/services/reach/extension.js'; 
+			    var s = document.getElementsByTagName('script')[0]; 
+			    s.parentNode.insertBefore(e, s); 
+			  })(); 
+			</script>
+		</j:if>
+	</j:if>
+</j:jelly>
+

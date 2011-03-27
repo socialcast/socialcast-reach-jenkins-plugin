@@ -1,0 +1,10 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+  <f:section title="Socialcast Reach page decorator">
+    <f:entry title="Token"  help="/plugin/socialcast-reach/token.html">
+      <f:textbox field="token"/>
+    </f:entry>
+    <f:entry title="Domain" help="/plugin/socialcast-reach/domain.html">
+      <f:textbox field="domain"/>
+    </f:entry>
+  </f:section>
+</j:jelly>
