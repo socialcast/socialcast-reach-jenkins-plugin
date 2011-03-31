@@ -31,22 +31,7 @@
       </roles>
     </developer>
   </developers>
-  <build>
-      <plugins>
-        <plugin>
-          <artifactId>socialcast-reach</artifactId>
-          <version>${socialcast-reach.version}</version>
-        </plugin>
-      </plugins>
-  </build>
-  <reporting>
-    <plugins>
-      <plugin>
-        <artifactId>socialcast-reach</artifactId>
-        <version>${socialcast-reach.version}</version>
-      </plugin>
-    </plugins>
-  </reporting>
+
   <scm>
     <connection>scm:git:git://github.com/socialcast/socialcast-reach-jenkins-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:socialcast/socialcast-reach-jenkins-plugin.git</developerConnection>
@@ -72,10 +57,5 @@
       <url>http://maven.glassfish.org/content/groups/public/</url>
     </pluginRepository>
   </pluginRepositories>
-  <distributionManagement>
-    <site>
-      <id>github-project-site</id>
-      <url>gitsite:git@github.com/socialcast/socialcast-reach-jenkins-plugin</url>
-    </site>
-  </distributionManagement>
+
 </project>
