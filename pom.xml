@@ -9,7 +9,7 @@
   <groupId>org.socialcast.jenkins.plugins</groupId>
   <artifactId>socialcast-reach</artifactId>
   <name>Socialcast Reach Plug-in</name>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.1-SNAPSHOT</version>
   <packaging>hpi</packaging>
   
   <licenses>
@@ -33,14 +33,14 @@
   </developers>
   
   <scm>
-    <connection>scm:git:git://github.com/socialcast/jenkins-socialcast-reach-plugin.git</connection>
-    <developerConnection>scm:git:git@github.com:socialcast/jenkins-socialcast-reach-plugin.git</developerConnection>
-    <url>https://github.com/socialcast/jenkins-socialcast-reach-plugin</url>
+    <connection>scm:git:git://github.com/socialcast/socialcast-reach-jenkins-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:socialcast/socialcast-reach-jenkins-plugin.git</developerConnection>
+    <url>https://github.com/socialcast/socialcast-reach-jenkins-plugin</url>
   </scm>
   
   <issueManagement>
     <system>Github Issues</system>
-    <url>https://github.com/socialcast/jenkins-socialcast-reach-plugin/issues</url>
+    <url>https://github.com/socialcast/socialcast-reach-jenkins-plugin/issues</url>
   </issueManagement>
 
   <!-- get every artifact through maven.glassfish.org, which proxies all the artifacts that we need -->
