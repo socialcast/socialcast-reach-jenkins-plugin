@@ -1,7 +1,7 @@
 <j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
 	<j:if test="${it.token!=null}">
 		<j:if test="${it.domain!=null}">
-			<div id='socialcast_reach_container' style='300px'></div>
+			<div id='socialcast_reach_container' style='height:300px'></div>
 			<script type="text/javascript">
 			  var _domain = "${it.domain}";
 			  var _reach = _reach || []; 
