@@ -9,7 +9,7 @@
   <groupId>org.socialcast.jenkins.plugins</groupId>
   <artifactId>socialcast-reach</artifactId>
   <name>Socialcast Reach Plug-in</name>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.0.2</version>
   <packaging>hpi</packaging>
   
   <licenses>
