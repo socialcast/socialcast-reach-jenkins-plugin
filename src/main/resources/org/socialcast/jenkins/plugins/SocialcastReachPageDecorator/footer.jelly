@@ -10,6 +10,10 @@
 			    domain: 'https://' + _domain + '/',
 			    token: "${it.token}"
 			  }); 
+			  var footerContainer = document.getElementById('footer-container');
+			  if (footerContainer) {
+			    footerContainer.style.position = 'relative';
+			  }
 			  (function(){ 
 			    var e=document.createElement('script'); 
 			    e.type='text/javascript'; 
