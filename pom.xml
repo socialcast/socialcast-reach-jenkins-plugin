@@ -3,27 +3,27 @@
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>1.399</version><!-- which version of Jenkins is this plugin built against? -->
+    <version>1.574</version><!-- which version of Jenkins is this plugin built against? -->
   </parent>
 
   <groupId>org.socialcast.jenkins.plugins</groupId>
   <artifactId>socialcast-reach</artifactId>
   <name>Socialcast Reach Plug-in</name>
-  <version>1.0.2</version>
+  <version>1.0.3</version>
   <packaging>hpi</packaging>
-  
+
   <licenses>
     <license>
       <name>MIT license</name>
       <comments>All source code is under the MIT license.</comments>
     </license>
   </licenses>
-  
+
   <developers>
     <developer>
       <id>scashin</id>
       <name>Sean Cashin</name>
-      <email>sean@socialcast.com</email>
+      <email>developers@socialcast.com</email>
       <organization>Socialcast</organization>
       <organizationUrl>http://www.socialcast.com/</organizationUrl>
       <roles>
@@ -37,24 +37,22 @@
     <developerConnection>scm:git:git@github.com:socialcast/socialcast-reach-jenkins-plugin.git</developerConnection>
     <url>https://github.com/socialcast/socialcast-reach-jenkins-plugin</url>
   </scm>
-  
+
   <issueManagement>
     <system>Github Issues</system>
     <url>https://github.com/socialcast/socialcast-reach-jenkins-plugin/issues</url>
   </issueManagement>
 
-  <!-- get every artifact through maven.glassfish.org, which proxies all the artifacts that we need -->
   <repositories>
     <repository>
-      <id>m.g.o-public</id>
-      <url>http://maven.glassfish.org/content/groups/public/</url>
+      <id>repo.jenkins-ci.org</id>
+      <url>http://repo.jenkins-ci.org/public/</url>
     </repository>
   </repositories>
-
   <pluginRepositories>
     <pluginRepository>
-      <id>m.g.o-public</id>
-      <url>http://maven.glassfish.org/content/groups/public/</url>
+      <id>repo.jenkins-ci.org</id>
+      <url>http://repo.jenkins-ci.org/public/</url>
     </pluginRepository>
   </pluginRepositories>
 
