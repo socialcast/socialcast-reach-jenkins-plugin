@@ -1,3 +1,4 @@
+<?jelly escape-by-default='true'?>
 <div>
   This plugin lets you install Socialcast reach extensions at the footer of every Jenkins page.
 </div>

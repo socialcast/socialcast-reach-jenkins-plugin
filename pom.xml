@@ -3,13 +3,16 @@
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>1.574</version><!-- which version of Jenkins is this plugin built against? -->
+    <version>2.2</version>
   </parent>
+  <properties>
+    <jenkins.version>1.658</jenkins.version>
+  </properties>
 
   <groupId>org.socialcast.jenkins.plugins</groupId>
   <artifactId>socialcast-reach</artifactId>
   <name>Socialcast Reach Plug-in</name>
-  <version>1.0.3</version>
+  <version>1.0.4</version>
   <packaging>hpi</packaging>
 
   <licenses>
